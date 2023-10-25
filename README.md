@@ -11,6 +11,22 @@ Web application based on REST API, made using Gin, GORM and PostgreSQL.
 
 This web app stores and returns database entries about different users, storing their name, age, gender and nationality.
 
+## Config
+
+Web app is configured by a `.env` file.
+
+**.env file example:**
+```
+SERVER_ADDR = "<addr to wich bind app>"
+DB_HOST = "<postgresql host address>"
+DB_USER = "<postgresql user>"
+DB_PASSWORD = "<postgresql user password>"
+DB_NAME = "<postgresql db name>"
+DB_PORT = "<postgresql port>"
+DB_SSLMODE = "<postgresql ssl mode>"
+DB_TIMEZONE = "<postgresql timezone>"
+```
+
 
 ## API Endpoints
 
