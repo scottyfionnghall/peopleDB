@@ -1,0 +1,1 @@
+go run ./main.go >> ./info.log 2>>error.log
